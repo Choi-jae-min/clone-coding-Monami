@@ -1,9 +1,9 @@
-import Image from "next/image";
+import MainHeader from "@/components/header/main-header";
 
 export default function Home() {
   return (
-    <main>
-      branch test 1
+    <main className={'bg-white h-screen text-black pt-14'}>
+        <MainHeader/>
     </main>
   );
 }
